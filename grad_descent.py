@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 # Load data
 df = pd.read_csv('/Users/rishabhsolanki/Desktop/Machine learning/houses.csv')
-x = df.iloc[:, 0].values
-y = df.iloc[:, 2].values  # if price of houses is in column 3
+x = df.iloc[:, 1].values
+y = df.iloc[:, 0].values  # price of houses
 
 # Initialize parameters
 theta = np.zeros((2,1))
@@ -36,8 +36,8 @@ def gradient_descent(X, y, theta, alpha, num_iters):
     return theta, J_history
 
 # Hyperparameters
-alpha = 0.01
-num_iters = 1000
+alpha = 0.000001
+num_iters = 10000
 
 theta, J_history = gradient_descent(X, y, theta, alpha, num_iters)
 
