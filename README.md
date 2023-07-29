@@ -8,6 +8,8 @@ In this project, we employ various machine learning algorithms to perform sentim
 3. [Model Training and Evaluation](#model-training-and-evaluation)
 4. [Results and Conclusion](#results-and-conclusion)
 
+![ROC-AUC](roc.png)
+
 ## Data Ingestion <a name="data-ingestion"></a>
 The data for this project is sourced from the `movie_reviews` corpus of the NLTK library. This corpus comprises movie reviews labelled as either 'positive' or 'negative'.
 
