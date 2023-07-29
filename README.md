@@ -29,7 +29,7 @@ For each model, we perform the following steps:
 We visualize the ROC curves of the different models together for comparison.
 
 ## Results and Conclusion <a name="results-and-conclusion"></a>
-The results of the model performance are presented in terms of ROC_AUC for each classifier. We find that [insert the model which worked best] outperforms the other models. 
+The results of the model performance are presented in terms of ROC_AUC for each classifier. We find that SVM outperforms the other models. 
 
 Through this project, we successfully automate the process of sentiment analysis on movie reviews, which has numerous practical applications in the real world, from customer feedback interpretation to product recommendation.
 
